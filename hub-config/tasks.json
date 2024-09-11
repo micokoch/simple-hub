@@ -9,7 +9,7 @@
         {
           "task_ids": {
             "origin_date": {
-              "required": {},
+              "required": null,
               "optional": ["2023-01-02", "2023-01-09", "2023-01-16"]
             },
             "location": {
@@ -28,8 +28,8 @@
           "output_type": {
             "mean": {
               "output_type_id": {
-                "required": null,
-                "optional": {}
+                "required": "NA",
+                "optional": null
               },
               "value": {
                 "type": "double",
@@ -38,8 +38,8 @@
             },
             "median": {
               "output_type_id": {
-                "required": {},
-                "optional": null
+                "required": null,
+                "optional": "NA"
               },
               "value": {
                 "type": "integer"
@@ -74,7 +74,7 @@
         {
           "task_ids": {
             "origin_date": {
-              "required": {},
+              "required": null,
               "optional": ["2023-01-02", "2023-01-09", "2023-01-16"]
             },
             "location": {
@@ -93,8 +93,8 @@
           "output_type": {
             "mean": {
               "output_type_id": {
-                "required": null,
-                "optional": {}
+                "required": "NA",
+                "optional": null
               },
               "value": {
                 "type": "double",
@@ -152,7 +152,7 @@
         {
           "task_ids": {
             "origin_date": {
-              "required": {},
+              "required": null,
               "optional": ["2023-01-02", "2023-01-09", "2023-01-16"]
             },
             "location": {
@@ -171,8 +171,8 @@
           "output_type": {
             "mean": {
               "output_type_id": {
-                "required": null,
-                "optional": {}
+                "required": "NA",
+                "optional": null
               },
               "value": {
                 "type": "double",
@@ -181,8 +181,8 @@
             },
             "median": {
               "output_type_id": {
-                "required": {},
-                "optional": null
+                "required": null,
+                "optional": "NA"
               },
               "value": {
                 "type": "integer"
@@ -217,7 +217,7 @@
         {
           "task_ids": {
             "origin_date": {
-              "required": {},
+              "required": null,
               "optional": ["2023-01-02", "2023-01-09", "2023-01-16"]
             },
             "location": {
@@ -236,8 +236,8 @@
           "output_type": {
             "mean": {
               "output_type_id": {
-                "required": null,
-                "optional": {}
+                "required": "NA",
+                "optional": null
               },
               "value": {
                 "type": "double",

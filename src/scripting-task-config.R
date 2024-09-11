@@ -104,5 +104,7 @@ rounds <- create_rounds(round1, round2)
 config <- create_config(rounds)
 
 # Write the `config` object to a JSON file (note that this will overwrite any existing file with the same name in the "hub-config" folder)
-json_output <- jsonlite::toJSON(config, pretty = TRUE, auto_unbox = TRUE)
-write(json_output, "hub-config/tasks.json")
+write_config(config, hub_path = ".", overwrite = TRUE)
+
+# json_output <- jsonlite::toJSON(config, pretty = TRUE, auto_unbox = TRUE)
+# write(json_output, "hub-config/tasks.json")
